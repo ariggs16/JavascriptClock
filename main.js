@@ -33,6 +33,7 @@ function myClock(){
 
 	var time = h + ":" + m + ":" + s + timeOfDay;
 	document.querySelector("#Clock").innerHTML = time;
+	document.querySelector("#timeOfDay")
 
 	setTimeout(myClock, 1000);
 }
